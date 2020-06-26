@@ -1,0 +1,29 @@
+@import "./variables";
+
+.row {
+    display: grid;
+    grid-gap: $gridGap;
+    gap: $gridGap;
+    grid-template-columns: repeat($gridColumns, #{$gridColumns}fr);
+}
+
+/// creates classes of type col-**-##
+/// where ** can be xl, lg, md, sm, xs
+/// ## can be 2 to 12
+@each $screenType, $size in $breakPoints {
+    @media screen and (min-width: $size) {
+        @for $column from $gridColumns through 2 {
+            .col-#{$screenType}-#{$column} {
+                grid-column: span $column;
+            }
+        }
+    }
+}
+
+/// creates classes of type col-##
+/// where ## can be 2 to 12
+@for $column from $gridColumns through 2 {
+    .col-#{$column} {
+        grid-column: span $column;
+    }
+}
