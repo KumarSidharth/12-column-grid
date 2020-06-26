@@ -26,7 +26,12 @@
     "grids-scss",
     "scss-grids",
     "grid",
-    "grid.sass"
+    "grid.sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
   ],
   "author": "Kumar Sidharth <k.sidharth1994@gmail.com>",
   "license": "MIT",
