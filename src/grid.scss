@@ -1,6 +1,7 @@
 @import "./variables";
 
-.row {
+.row,
+.grid {
     display: grid;
     grid-gap: $gridGap;
     gap: $gridGap;
