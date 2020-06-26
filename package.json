@@ -1,0 +1,37 @@
+{
+  "name": "12-column-grid",
+  "version": "1.0.0",
+  "description": "Provides CSS classes for creating 12 column grid layout",
+  "main": "grid.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumarSidharth/12-column-grid.git"
+  },
+  "keywords": [
+    "12-column-grid-layout",
+    "12-column-grid",
+    "grid.css",
+    "grid-css",
+    "css",
+    "grids.css",
+    "css-grid",
+    "scss",
+    "grid.scss",
+    "grid-scss",
+    "scss-grid",
+    "grids.scss",
+    "grids-scss",
+    "scss-grids",
+    "grid",
+    "grid.sass"
+  ],
+  "author": "Kumar Sidharth <k.sidharth1994@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KumarSidharth/12-column-grid/issues"
+  },
+  "homepage": "https://github.com/KumarSidharth/12-column-grid#readme"
+}
