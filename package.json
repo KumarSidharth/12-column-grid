@@ -2,8 +2,9 @@
   "name": "12-column-grid",
   "version": "1.0.0",
   "description": "Provides CSS classes for creating 12 column grid layout",
-  "main": "grid.scss",
   "scripts": {
+    "watch": "node-sass --watch src/grid.scss -o dist/grid.css",
+    "build:prod": "node-sass src/grid.scss -o dist/grid.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -38,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/KumarSidharth/12-column-grid/issues"
   },
-  "homepage": "https://github.com/KumarSidharth/12-column-grid#readme"
+  "homepage": "https://github.com/KumarSidharth/12-column-grid#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
