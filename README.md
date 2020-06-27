@@ -25,24 +25,18 @@ Install this library from npm using the command
     ```json
     {
         "projects": {
-            "<Project Name>": { // Name of your Angular project
+            "<Project Name>": {
                 "architect": {
                     "build": {
                         "options": {
                             "assets": [
                                 "./node_modules/12-column-grid/src/grid.scss"
                             ],
-                            ...
                         },
-                        ...
                     },
-                    ...
                 },
-                ...
             },
-            ...
         },
-        ...
     }
     ```
 
