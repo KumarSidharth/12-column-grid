@@ -5,7 +5,6 @@
   "scripts": {
     "watch": "node-sass --watch src/grid.scss -o dist/grid.css",
     "build:prod": "node-sass src/grid.scss -o dist/grid.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
