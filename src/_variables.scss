@@ -7,4 +7,6 @@ $breakPoints : (
 ) !default;
 
 $gridColumns: 12 !default;
-$gridGap: 24px !default;
+$gridRowGap: 24px !default;
+$gridColumnGap: 24px !default;
+$columnPrefix: '.col' !default;

@@ -3,8 +3,8 @@
 .row,
 .grid {
     display: grid;
-    grid-gap: $gridGap;
-    gap: $gridGap;
+    row-gap: $gridRowGap;
+    column-gap: $gridColumnGap;
     grid-template-columns: repeat($gridColumns, #{$gridColumns}fr);
 }
 
@@ -14,7 +14,7 @@
 @each $screenType, $size in $breakPoints {
     @media screen and (min-width: $size) {
         @for $column from $gridColumns through 2 {
-            .col-#{$screenType}-#{$column} {
+            #{$columnPrefix}-#{$screenType}-#{$column} {
                 grid-column: span $column;
             }
         }
@@ -24,7 +24,7 @@
 /// creates classes of type col-##
 /// where ## can be 2 to 12
 @for $column from $gridColumns through 2 {
-    .col-#{$column} {
+    #{$columnPrefix}-#{$column} {
         grid-column: span $column;
     }
 }
