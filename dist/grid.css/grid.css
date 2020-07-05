@@ -1,8 +1,8 @@
 .row,
 .grid {
   display: grid;
-  grid-gap: 24px;
-  gap: 24px;
+  row-gap: 24px;
+  column-gap: 24px;
   grid-template-columns: repeat(12, 12fr); }
 
 @media screen and (min-width: 1200px) {

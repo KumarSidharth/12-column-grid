@@ -2,6 +2,7 @@
 
 * CSS library
 * Creates 12 column responsive grid layout
+* Customizable
 * Light weight
 * Zero production dependency
 * Class names are same as that of bootstrap
@@ -117,6 +118,51 @@ For non-responsive grids use the classes `col-1, col-2, col-3, ... col-12`.
 </body>
 ```
 
+## Customizing grids
+
+To customise the library, you need to use SCSS in your application.
+The following things can be customized -
+
+* Break points
+
+    ```scss
+    $breakPoints :(
+        xl: 1600px,
+        lg: 1200px,
+        md: 1080px,
+        sm: 480px,
+        xs: 0
+    );
+    ```
+
+    If the keys of `$breakPoints` are changed then it will reflect in the class names generated. For example, if the key `lg` is changed to `large` then the classes `col-lg-1, col-lg-2, ... col-lg-12` will change `col-large-1, col-large-2, ... col-large-12`.
+
+* Number of columns in the grid
+
+    ```scss
+    $gridColumns: 10;
+    ```
+
+* Gap between the grid rows
+
+    ```scss
+    $gridRowGap: 30px;
+    ```
+
+* Gap between the grid columns
+
+    ```scss
+    $gridColumnGap: 10px;
+    ```
+
+* Prefix `.col` before all column clases
+
+    ```scss
+    $columnPrefix: '.my-company';
+    ```
+
+Use `@import` after declaring variables for customizing.
+
 ## Reporting Issues 🆘
 
 Issues for this library can be reported on Github.
@@ -165,7 +211,7 @@ This project is meant to have **0 production dependency**.
 |---|-----------------------------------------------|
 | ⬜️| Add Stackblitz link for Usage in Angular      |
 | ⬜️| Add codepen / jsFiddle links                  |
-| ⬜️| Add custom properties (CSS vars) to customize |
+| ✅| Add customizable variables                    |
 | ✅| Add usage docs                                |
 | ⬜️| Add images for result of examples             |
 | ⬜️| Add to CDN                                    |
