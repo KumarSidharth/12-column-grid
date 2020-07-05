@@ -118,7 +118,7 @@ For non-responsive grids use the classes `col-1, col-2, col-3, ... col-12`.
 </body>
 ```
 
-## Customizing grids
+## Customizing grids 🔧
 
 To customise the library, you need to use SCSS in your application.
 The following things can be customized -
