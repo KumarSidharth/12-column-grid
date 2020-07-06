@@ -218,3 +218,4 @@ This project is meant to have **0 production dependency**.
 | ⬜️| Minify the output file                        |
 | ⬜️| Add classes for row-span                      |
 | ⬜️| Show/Hide element on a specific device        |
+| ⬜️| align grid and grid item                      |
