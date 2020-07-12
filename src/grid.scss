@@ -25,7 +25,7 @@
         }
         /// creates classes of type d-**-none
         /// where ** can be xl, lg, md, sm, xs
-        /// hides the element when the screen width is eaqual or less than `$size`
+        /// hides the element when the screen width is equal to `$size`
         .d-#{$screenType}-none {
             display: none;
         }
