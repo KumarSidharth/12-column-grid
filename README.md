@@ -19,7 +19,9 @@ Install this library from npm using the command
 
 * If your project is using SCSS, import `grid.scss` from `node_modules/12-column-grid/src/grid.scss`.
 
-* Projects without CSS pre-processors or other CSS pre-processors can use `grid.css` from `node_modules/12-column-grid/dist/grid.css`
+* Projects without CSS pre-processors or other CSS pre-processors can use minified `grid.min.css` file from `node_modules/12-column-grid/dist/grid.min.css`.
+
+* For unminified file, use `grid.css` from `node_modules/12-column-grid/dist/grid.css`
 
 * Angular projects can import the library using angular.json file. Find the assets array in angular.json and put the path to `node_modules/12-column-grid/src/grid.scss`
 
@@ -59,6 +61,8 @@ The screen sizes are divided as
 | 📱 small screen    | sm   | more than 576px   |
 | 📟 extra small screen | xs   | less than 576px   |
 
+#### `col` classes
+
 Use the following classes for responsive grid layout
 
 * `col-xl-1, col-xl-2, ... col-xl-12`
@@ -74,6 +78,12 @@ Use the following classes for responsive grid layout
 Mix classes of different screen sizes to get responsive layout
 
 For non-responsive grids use the classes `col-1, col-2, col-3, ... col-12`.
+
+#### `d-**-none` classes
+
+Use the following classes to hide the element for a screen size.
+
+`d-xl-none, d-lg-none, d-md-none, d-sm-none, d-xs-none`
 
 ### Examples
 
@@ -217,5 +227,6 @@ This project is meant to have **0 production dependency**.
 | ⬜️| Add to CDN                                    |
 | ✅| Minify the output file                        |
 | ⬜️| Add classes for row-span                      |
-| ⬜️| Show/Hide element on a specific device        |
+| ✅| Hide element on a specific device             |
+| ⬜️| Show element on a specific device             |
 | ⬜️| align grid and grid item                      |

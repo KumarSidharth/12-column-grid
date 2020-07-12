@@ -41,6 +41,9 @@
   .col-xl-2 {
     grid-column: span 2;
   }
+  .d-xl-none {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -76,6 +79,9 @@
   }
   .col-lg-2 {
     grid-column: span 2;
+  }
+  .d-lg-none {
+    display: none;
   }
 }
 
@@ -113,6 +119,9 @@
   .col-md-2 {
     grid-column: span 2;
   }
+  .d-md-none {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -149,6 +158,9 @@
   .col-sm-2 {
     grid-column: span 2;
   }
+  .d-sm-none {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 0) {
@@ -184,6 +196,9 @@
   }
   .col-xs-2 {
     grid-column: span 2;
+  }
+  .d-xs-none {
+    display: none;
   }
 }
 

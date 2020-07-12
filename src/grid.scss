@@ -10,15 +10,24 @@
     grid-template-columns: repeat($gridColumns, #{$gridColumns}fr);
 }
 
-/// creates classes of type col-**-##
-/// where ** can be xl, lg, md, sm, xs
-/// ## can be 2 to 12
+/// $breakPoints {map<$key: string, $value: string>}
+/// $screenType {key in $breakPoints} default values xl, lg, md, sm, xs
+/// $size {value in $breakPoint} default values 1200px, 992px, 768px, 576px, 0
 @each $screenType, $size in $breakPoints {
     @media screen and (min-width: $size) {
+        /// creates classes of type col-**-##
+        /// where ** can be xl, lg, md, sm, xs
+        /// ## can be 2 to 12
         @for $column from $gridColumns through 2 {
             #{$columnPrefix}-#{$screenType}-#{$column} {
                 grid-column: span $column;
             }
+        }
+        /// creates classes of type d-**-none
+        /// where ** can be xl, lg, md, sm, xs
+        /// hides the element when the screen width is equal to `$size`
+        .d-#{$screenType}-none {
+            display: none;
         }
     }
 }
