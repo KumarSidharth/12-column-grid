@@ -3,9 +3,9 @@
   "version": "1.1.0",
   "description": "Provides CSS classes for creating 12 column grid layout",
   "scripts": {
-    "watch": "node-sass --watch src/grid.scss -o dist/grid.css",
-    "build:minify": "node-sass src/grid.scss -o dist/grid.min.css --output-style compressed",
-    "build:expanded": "node-sass src/grid.scss -o dist/grid.css",
+    "watch": "node-sass --watch src/grid.scss > dist/grid.css --output-style expanded",
+    "build:minify": "node-sass src/grid.scss > dist/grid.min.css --output-style compressed",
+    "build:expanded": "node-sass src/grid.scss > dist/grid.css --output-style expanded",
     "build": "npm run build:expanded && npm run build:minify"
   },
   "repository": {
