@@ -21,9 +21,23 @@
       href="https://cdn.jsdelivr.net/npm/12-column-grid/dist/grid.min.css">
 ```
 
-Install this library from npm using the command
+Another CDN
+
+```html
+<link rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/12-column-grid/dist/grid.min.css">
+```
+
+#### Install locally
 
 `npm i 12-column-grid`
+
+or
+
+`yarn add 12-column-grid`
+
+To use grids from `node_modules` -
 
 * If your project is using SCSS, import `grid.scss` from `node_modules/12-column-grid/src/grid.scss`.
 
