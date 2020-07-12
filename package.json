@@ -1,6 +1,6 @@
 {
   "name": "12-column-grid",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Provides CSS classes for creating 12 column grid layout",
   "scripts": {
     "watch": "node-sass --watch src/grid.scss > dist/grid.css --output-style expanded",
