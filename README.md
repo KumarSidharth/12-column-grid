@@ -13,6 +13,14 @@
 
 ### Adding To Project
 
+#### CDN
+
+```html
+<link rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/12-column-grid/dist/grid.min.css">
+```
+
 Install this library from npm using the command
 
 `npm i 12-column-grid`
