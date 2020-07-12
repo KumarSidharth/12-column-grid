@@ -201,7 +201,7 @@ This project is meant to have **0 production dependency**.
 
 2. Before raising the pull request you should run the script
 
-    `npm run build:prod`
+    `npm run build`
 
     This script will build the CSS files for production.
 
@@ -215,7 +215,7 @@ This project is meant to have **0 production dependency**.
 | ✅| Add usage docs                                |
 | ⬜️| Add images for result of examples             |
 | ⬜️| Add to CDN                                    |
-| ⬜️| Minify the output file                        |
+| ✅| Minify the output file                        |
 | ⬜️| Add classes for row-span                      |
 | ⬜️| Show/Hide element on a specific device        |
 | ⬜️| align grid and grid item                      |
