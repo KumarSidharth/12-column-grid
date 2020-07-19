@@ -10,3 +10,20 @@ $gridColumns: 12 !default;
 $gridRowGap: 24px !default;
 $gridColumnGap: 24px !default;
 $columnPrefix: '.col' !default;
+$alignPrefix: '.align' !default;
+
+$alignments: start, end, center, stretch;
+
+$horizontal-alignment : (
+    left: start,
+    right: end,
+    center: center,
+    stretch: stretch
+);
+
+$vertical-alignment : (
+    top: start,
+    bottom: end,
+    center: center,
+    stretch: stretch
+);

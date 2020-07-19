@@ -39,3 +39,22 @@
         grid-column: span $column;
     }
 }
+
+/// horizontal align grid items
+@each $alignment, $value in $horizontal-alignment {
+    
+    [class*="#{$columnPrefix}"] {
+        &#{$alignPrefix}-#{$alignment} {
+            justify-self: $value;
+        }
+    }
+
+    .grid#{$alignPrefix}-#{$alignment} {
+        justify-content: $value;
+    }
+}
+
+// [class*="#{$columnPrefix}"].center {
+//     place-self: center;
+// }
+
