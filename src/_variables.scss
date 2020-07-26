@@ -17,13 +17,13 @@ $alignments: start, end, center, stretch;
 $horizontal-alignment : (
     left: start,
     right: end,
-    center: center,
-    stretch: stretch
+    h-center: center,
+    h-stretch: stretch
 );
 
 $vertical-alignment : (
     top: start,
     bottom: end,
-    center: center,
-    stretch: stretch
+    v-center: center,
+    v-stretch: stretch
 );
