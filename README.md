@@ -1,7 +1,8 @@
-# 12-column-grid
+# ![12-column-grid](https://i.ibb.co/zrWLJh3/image.png)
+
 ![GitHub file size in bytes](https://img.shields.io/github/size/kumarsidharth/12-column-grid/dist/grid.min.css?label=minified%20size)
 ![npm](https://img.shields.io/npm/dt/12-column-grid?label=npm%20downloads)
-[![](https://data.jsdelivr.com/v1/package/npm/12-column-grid/badge)](https://www.jsdelivr.com/package/npm/12-column-grid)
+[![jsDeliver hits per month](https://data.jsdelivr.com/v1/package/npm/12-column-grid/badge?style=rounded)](https://www.jsdelivr.com/package/npm/12-column-grid)
 ![GitHub issues](https://img.shields.io/github/issues/kumarsidharth/12-column-grid)
 ![GitHub](https://img.shields.io/github/license/kumarsidharth/12-column-grid?color=%23800080)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/kumarsidharth/12-column-grid)
