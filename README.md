@@ -1,4 +1,4 @@
-# ![12-column-grid](https://i.ibb.co/qndMSdy/image.png)
+# ![12-column-grid](https://i.ibb.co/zrWLJh3/image.png)
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/kumarsidharth/12-column-grid/dist/grid.min.css?label=minified%20size)
 ![npm](https://img.shields.io/npm/dt/12-column-grid?label=npm%20downloads)
