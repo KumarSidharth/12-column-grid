@@ -1,6 +1,13 @@
 # 12-column-grid
+![GitHub file size in bytes](https://img.shields.io/github/size/kumarsidharth/12-column-grid/dist/grid.min.css?label=minified%20size)
+![npm](https://img.shields.io/npm/dt/12-column-grid?label=npm%20downloads)
+[![](https://data.jsdelivr.com/v1/package/npm/12-column-grid/badge)](https://www.jsdelivr.com/package/npm/12-column-grid)
+![GitHub issues](https://img.shields.io/github/issues/kumarsidharth/12-column-grid)
+![GitHub](https://img.shields.io/github/license/kumarsidharth/12-column-grid?color=%23800080)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/kumarsidharth/12-column-grid)
+![Dependencies](https://img.shields.io/badge/dependencies-0-yellowgreen)
+![GitHub last commit](https://img.shields.io/github/last-commit/kumarsidharth/12-column-grid)
 
-* CSS library
 * Creates 12 column responsive grid layout
 * Customizable
 * Light weight
