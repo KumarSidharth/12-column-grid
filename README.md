@@ -29,7 +29,7 @@ Another CDN
       href="https://unpkg.com/12-column-grid/dist/grid.min.css">
 ```
 
-#### Install locally
+#### Installing locally
 
 `npm i 12-column-grid`
 
@@ -65,7 +65,7 @@ To use grids from `node_modules` -
     }
     ```
 
-### Using Classes
+### Using Classes✨
 
 All the class names in this library are same as bootstrap.
 
@@ -220,7 +220,7 @@ Issues for this library can be reported on Github.
 
 I am looking out for contributers and maintainers for this project. 🖖🏻
 
-### Getting Started
+### Getting Started 👩‍💻
 
 1. Clone the project in your local machine.
 
@@ -238,7 +238,7 @@ I am looking out for contributers and maintainers for this project. 🖖🏻
 
 This project is meant to have **0 production dependency**.
 
-### Scripts
+### Scripts 📜
 
 1. During the development process you can watch the files using
 
@@ -252,7 +252,7 @@ This project is meant to have **0 production dependency**.
 
     This script will build the CSS files for production.
 
-### Tasks
+### Tasks 📝
 
 |   |Task name                                      |
 |---|-----------------------------------------------|
