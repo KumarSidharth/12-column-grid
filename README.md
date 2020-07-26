@@ -1,6 +1,13 @@
 # 12-column-grid
+![GitHub file size in bytes](https://img.shields.io/github/size/kumarsidharth/12-column-grid/dist/grid.min.css?label=minified%20size)
+![npm](https://img.shields.io/npm/dt/12-column-grid?label=npm%20downloads)
+[![](https://data.jsdelivr.com/v1/package/npm/12-column-grid/badge)](https://www.jsdelivr.com/package/npm/12-column-grid)
+![GitHub issues](https://img.shields.io/github/issues/kumarsidharth/12-column-grid)
+![GitHub](https://img.shields.io/github/license/kumarsidharth/12-column-grid?color=%23800080)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/kumarsidharth/12-column-grid)
+![Dependencies](https://img.shields.io/badge/dependencies-0-yellowgreen)
+![GitHub last commit](https://img.shields.io/github/last-commit/kumarsidharth/12-column-grid)
 
-* CSS library
 * Creates 12 column responsive grid layout
 * Customizable
 * Light weight
@@ -13,9 +20,31 @@
 
 ### Adding To Project
 
-Install this library from npm using the command
+#### CDN
+
+```html
+<link rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/12-column-grid/dist/grid.min.css">
+```
+
+Another CDN
+
+```html
+<link rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/12-column-grid/dist/grid.min.css">
+```
+
+#### Installing locally
 
 `npm i 12-column-grid`
+
+or
+
+`yarn add 12-column-grid`
+
+To use grids from `node_modules` -
 
 * If your project is using SCSS, import `grid.scss` from `node_modules/12-column-grid/src/grid.scss`.
 
@@ -43,7 +72,7 @@ Install this library from npm using the command
     }
     ```
 
-### Using Classes
+### Using Classes✨
 
 All the class names in this library are same as bootstrap.
 
@@ -198,7 +227,7 @@ Issues for this library can be reported on Github.
 
 I am looking out for contributers and maintainers for this project. 🖖🏻
 
-### Getting Started
+### Getting Started 👩‍💻
 
 1. Clone the project in your local machine.
 
@@ -216,7 +245,7 @@ I am looking out for contributers and maintainers for this project. 🖖🏻
 
 This project is meant to have **0 production dependency**.
 
-### Scripts
+### Scripts 📜
 
 1. During the development process you can watch the files using
 
@@ -230,7 +259,7 @@ This project is meant to have **0 production dependency**.
 
     This script will build the CSS files for production.
 
-### Tasks
+### Tasks 📝
 
 |   |Task name                                      |
 |---|-----------------------------------------------|
