@@ -245,3 +245,76 @@
 .col-2 {
   grid-column: span 2;
 }
+
+[class*=".col"].align-left {
+  justify-self: start;
+}
+
+.grid.align-left {
+  justify-content: start;
+}
+
+[class*=".col"].align-right {
+  justify-self: end;
+}
+
+.grid.align-right {
+  justify-content: end;
+}
+
+[class*=".col"].align-h-center {
+  justify-self: center;
+}
+
+.grid.align-h-center {
+  justify-content: center;
+}
+
+[class*=".col"].align-h-stretch {
+  justify-self: stretch;
+}
+
+.grid.align-h-stretch {
+  justify-content: stretch;
+}
+
+[class*=".col"].align-top {
+  align-self: start;
+}
+
+.grid.align-top {
+  align-content: start;
+}
+
+[class*=".col"].align-bottom {
+  align-self: end;
+}
+
+.grid.align-bottom {
+  align-content: end;
+}
+
+[class*=".col"].align-v-center {
+  align-self: center;
+}
+
+.grid.align-v-center {
+  align-content: center;
+}
+
+[class*=".col"].align-v-stretch {
+  align-self: stretch;
+}
+
+.grid.align-v-stretch {
+  align-content: stretch;
+}
+
+[class*=".col"].center {
+  place-self: center;
+}
+
+.grid.center,
+.row.center {
+  place-items: center;
+}
