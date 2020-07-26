@@ -107,6 +107,21 @@ Use the following classes to hide the element for a screen size.
 
 `d-xl-none, d-lg-none, d-md-none, d-sm-none, d-xs-none`
 
+#### Aligning grid
+
+Alignment classes can align the grid or the item. When applied to grid item, it aligns the grid item. When applied to the grid, it aligns the grid itself.
+
+For aligning use the classes
+
+* `align-top` - align at the top
+* `align-bottom` - align to the bottom
+* `align-right` - align to the right
+* `align-left` - align to the left
+* `align-h-center` - align the grid horizontally center
+* `align-v-center` - align the grid vertically center
+* `align-h-stretch` - stretchs the grid horizontally
+* `align-v-center` - stretchs the grid vertically
+
 ### Examples
 
 #### Responsive list of cards
@@ -251,4 +266,4 @@ This project is meant to have **0 production dependency**.
 | ⬜️| Add classes for row-span                      |
 | ✅| Hide element on a specific device             |
 | ⬜️| Show element on a specific device             |
-| ⬜️| align grid and grid item                      |
+| ✅| align grid and grid item                      |
