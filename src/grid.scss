@@ -40,21 +40,48 @@
     }
 }
 
-/// horizontal align grid items
+
 @each $alignment, $value in $horizontal-alignment {
-    
+    /// horizontally align grid items
     [class*="#{$columnPrefix}"] {
         &#{$alignPrefix}-#{$alignment} {
             justify-self: $value;
         }
     }
 
+    /// horizontally align grid
     .grid#{$alignPrefix}-#{$alignment} {
         justify-content: $value;
     }
 }
 
-// [class*="#{$columnPrefix}"].center {
-//     place-self: center;
-// }
+
+@each $alignment, $value in $vertical-alignment {
+    /// vertically align grid items
+    [class*="#{$columnPrefix}"] {
+        &#{$alignPrefix}-#{$alignment} {
+            align-self: $value;
+        }
+    }
+
+    /// vertically align grid 
+    .grid#{$alignPrefix} {
+        &-#{$alignment} {
+            align-content: $value;
+        }
+    }
+    
+}
+
+/// center align both horizontally and vertically
+[class*="#{$columnPrefix}"].center {
+    place-self: center;
+}
+
+.grid,
+.row {
+    &.center {
+        place-items: center;
+    }
+}
 

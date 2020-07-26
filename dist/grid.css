@@ -277,3 +277,44 @@
 .grid.align-stretch {
   justify-content: stretch;
 }
+
+[class*=".col"].align-top {
+  align-self: start;
+}
+
+.grid.align-top {
+  align-content: start;
+}
+
+[class*=".col"].align-bottom {
+  align-self: end;
+}
+
+.grid.align-bottom {
+  align-content: end;
+}
+
+[class*=".col"].align-center {
+  align-self: center;
+}
+
+.grid.align-center {
+  align-content: center;
+}
+
+[class*=".col"].align-stretch {
+  align-self: stretch;
+}
+
+.grid.align-stretch {
+  align-content: stretch;
+}
+
+[class*=".col"].center {
+  place-self: center;
+}
+
+.grid.center,
+.row.center {
+  place-items: center;
+}
