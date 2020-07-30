@@ -1,9 +1,9 @@
 $breakPoints : (
-    xl: 1200px,
-    lg: 992px,
-    md: 768px,
+    xs: 0,
     sm: 576px,
-    xs: 0
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
 ) !default;
 
 $gridColumns: 12 !default;
