@@ -67,7 +67,7 @@
     /// vertically align grid 
     .grid#{$alignPrefix} {
         &-#{$alignment} {
-            align-content: $value;
+            align-items: $value;
         }
     }
     

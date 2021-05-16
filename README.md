@@ -17,6 +17,26 @@
 * SCSS Source code
 * Uses `display:grid`
 
+## Contents
+
+* Using
+  * Adding To Project
+    * CDN
+    * Installing locally
+  * Using Classes
+    * `col` classes
+    * `d-**-none` classes
+    * Aligning grid
+  * Examples
+    * Responsive list of cards
+    * Responsive horizontal navigation links
+  * Customizing grids
+* Reporting Issues
+* Contributing
+  * Getting Started
+  * Scripts
+  * Tasks
+
 ## Using
 
 ### Adding To Project
@@ -270,9 +290,10 @@ This project is meant to have **0 production dependency**.
 | ✅| Add customizable variables                    |
 | ✅| Add usage docs                                |
 | ⬜️| Add images for result of examples             |
-| ⬜️| Add to CDN                                    |
+| ✅| Add to CDN                                    |
 | ✅| Minify the output file                        |
 | ⬜️| Add classes for row-span                      |
 | ✅| Hide element on a specific device             |
 | ⬜️| Show element on a specific device             |
 | ✅| align grid and grid item                      |
+| ⬜️| Grid gap based on media queries               |
