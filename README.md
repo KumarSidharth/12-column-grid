@@ -1,13 +1,13 @@
 # ![12-column-grid](https://i.ibb.co/zrWLJh3/image.png)
 
-![GitHub file size in bytes](https://img.shields.io/github/size/kumarsidharth/12-column-grid/dist/grid.min.css?label=minified%20size)
-![npm](https://img.shields.io/npm/dt/12-column-grid?label=npm%20downloads)
+[![GitHub file size in bytes](https://img.shields.io/github/size/kumarsidharth/12-column-grid/dist/grid.min.css?label=minified%20size)](https://github.com/KumarSidharth/12-column-grid/blob/master/dist/grid.min.css)
+[![npm](https://img.shields.io/npm/dt/12-column-grid?label=npm%20downloads)](https://www.npmjs.com/package/12-column-grid)
 [![jsDeliver hits per month](https://data.jsdelivr.com/v1/package/npm/12-column-grid/badge?style=rounded)](https://www.jsdelivr.com/package/npm/12-column-grid)
-![GitHub issues](https://img.shields.io/github/issues/kumarsidharth/12-column-grid)
-![GitHub](https://img.shields.io/github/license/kumarsidharth/12-column-grid?color=%23800080)
+[![GitHub issues](https://img.shields.io/github/issues/kumarsidharth/12-column-grid)](https://github.com/KumarSidharth/12-column-grid/issues)
+[![GitHub](https://img.shields.io/github/license/kumarsidharth/12-column-grid?color=%23800080)](https://github.com/KumarSidharth/12-column-grid/blob/master/LICENSE)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/kumarsidharth/12-column-grid)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-yellowgreen)
-![GitHub last commit](https://img.shields.io/github/last-commit/kumarsidharth/12-column-grid)
+[![GitHub last commit](https://img.shields.io/github/last-commit/kumarsidharth/12-column-grid)](https://github.com/KumarSidharth/12-column-grid/graphs/commit-activity)
 
 * Creates 12 column responsive grid layout
 * Customizable
@@ -16,6 +16,26 @@
 * Class names are same as that of bootstrap
 * SCSS Source code
 * Uses `display:grid`
+
+## Contents
+
+* Using
+  * Adding To Project
+    * CDN
+    * Installing locally
+  * Using Classes
+    * `col` classes
+    * `d-**-none` classes
+    * Aligning grid
+  * Examples
+    * Responsive list of cards
+    * Responsive horizontal navigation links
+  * Customizing grids
+* Reporting Issues
+* Contributing
+  * Getting Started
+  * Scripts
+  * Tasks
 
 ## Using
 
@@ -264,14 +284,16 @@ This project is meant to have **0 production dependency**.
 
 |   |Task name                                      |
 |---|-----------------------------------------------|
+| ⬜️| Add Table of contents in readme               |
 | ⬜️| Add Stackblitz link for Usage in Angular      |
 | ⬜️| Add codepen / jsFiddle links                  |
 | ✅| Add customizable variables                    |
 | ✅| Add usage docs                                |
 | ⬜️| Add images for result of examples             |
-| ⬜️| Add to CDN                                    |
+| ✅| Add to CDN                                    |
 | ✅| Minify the output file                        |
 | ⬜️| Add classes for row-span                      |
 | ✅| Hide element on a specific device             |
 | ⬜️| Show element on a specific device             |
 | ✅| align grid and grid item                      |
+| ⬜️| Grid gap based on media queries               |
