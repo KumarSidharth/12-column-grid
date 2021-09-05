@@ -41,9 +41,6 @@
   .col-xs-2 {
     grid-column: span 2;
   }
-  .d-xs-none {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 576px) {
@@ -202,6 +199,12 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .d-xs-none {
+    display: none;
+  }
+}
+
 .col-12 {
   grid-column: span 12;
 }
@@ -283,7 +286,7 @@
 }
 
 .grid.align-top {
-  align-content: start;
+  align-items: start;
 }
 
 [class*=".col"].align-bottom {
@@ -291,7 +294,7 @@
 }
 
 .grid.align-bottom {
-  align-content: end;
+  align-items: end;
 }
 
 [class*=".col"].align-v-center {
@@ -299,7 +302,7 @@
 }
 
 .grid.align-v-center {
-  align-content: center;
+  align-items: center;
 }
 
 [class*=".col"].align-v-stretch {
@@ -307,7 +310,7 @@
 }
 
 .grid.align-v-stretch {
-  align-content: stretch;
+  align-items: stretch;
 }
 
 [class*=".col"].center {

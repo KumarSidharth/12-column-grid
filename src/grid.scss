@@ -26,9 +26,19 @@
         /// creates classes of type d-**-none
         /// where ** can be xl, lg, md, sm, xs
         /// hides the element when the screen width is equal to `$size`
-        .d-#{$screenType}-none {
-            display: none;
+        @if $screenType != xs {
+            .d-#{$screenType}-none {
+                display: none;
+            }
         }
+    }
+}
+
+/// the d-xs-none is an exception it should hide the content 
+/// if the screen is smaller than ms not more than ms.
+@media screen and (max-width: 576px) {
+    .d-xs-none {
+      display: none;
     }
 }
 
