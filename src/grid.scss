@@ -36,7 +36,7 @@
 
 /// the d-xs-none is an exception it should hide the content 
 /// if the screen is smaller than ms not more than ms.
-@media screen and (max-width: 576px) {
+@media screen and (max-width: map-get($breakPoints, "xs")) {
     .d-xs-none {
       display: none;
     }
