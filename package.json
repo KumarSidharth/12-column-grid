@@ -43,6 +43,6 @@
   },
   "homepage": "https://github.com/KumarSidharth/12-column-grid#readme",
   "devDependencies": {
-    "node-sass": "^7.0.0"
+    "node-sass": "^9.0.0"
   }
 }
