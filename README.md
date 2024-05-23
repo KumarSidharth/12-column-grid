@@ -65,13 +65,15 @@ or
 
 `yarn add 12-column-grid`
 
-To use grids from `node_modules` -
+To use grids -
 
-* If your project is using SCSS, import `grid.scss` from `node_modules/12-column-grid/src/grid.scss`.
+* `import "12-column-grid";` should work for most projects.
+
+* If the above did not work and your project is using SCSS, try `import "node_modules/12-column-grid/src/grid.scss";`.
 
 * Projects without CSS pre-processors or other CSS pre-processors can use minified `grid.min.css` file from `node_modules/12-column-grid/dist/grid.min.css`.
 
-* For unminified file, use `grid.css` from `node_modules/12-column-grid/dist/grid.css`
+* For unminified file, use `grid.css` from `node_modules/12-column-grid/dist/grid.css`.
 
 * Angular projects can import the library using angular.json file. Find the assets array in angular.json and put the path to `node_modules/12-column-grid/src/grid.scss`
 
